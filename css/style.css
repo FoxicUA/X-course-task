@@ -29,6 +29,15 @@
     text-transform: uppercase;
   }
   
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+}
+
   .avatar{
     vertical-align: middle;
     width: 50px;
