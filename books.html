@@ -17,7 +17,18 @@
         <div>JS band store</div>
         <div>Your full name</div>
       </div>
-      <div class="header-right"></div>
+      <div class="header-right flex-wrapper">
+        <div class="btn cart-btn">
+            <a href="#">
+                <img src="img/cart.svg" alt="cart">
+            </a>
+        </div>
+        <button>Sign-Out</button>
+        <div class="flex-wrapper">
+            <img src="https://www.w3schools.com/howto/img_avatar.png" alt="ava" class="avatar">
+            <h2>Username</h2>
+        </div>
+      </div>
     </div>
   </header>
   <section>
@@ -29,20 +40,36 @@
             <div>
                 <select name="Price" id="">
                     <option value="" selected="selected">Price</option>
-                    <object data="" type=""></object>
-                    <object data="" type=""></object>
-                    <object data="" type=""></object>
-                    <object data="" type=""></object>
-                    <object data="" type=""></object>
+                    <object data="" type="">1</object>
+                    <object data="" type="">2</object>
+                    <object data="" type="">3</object>
+                    <object data="" type="">4</object>
+                    <object data="" type="">5</object>
                 </select>
             </div>
         </form>
     </div>
   </section>
   <section>
-    <div>
-        <div>
+    <div class="books_wrapper">
+        <div class="card">
+            <div class="card_image">
+                <img src="" alt="book image">
+            </div>
+            <h3 class="card_header">Book name, Book name, Book name</h3>
+            <p>Book author</p>
             <div>
+                <div>
+                    <p>Price</p>
+                </div>
+                <div>
+                    <button>View</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="card">
+            <div class="card_image">
                 <img src="" alt="book image">
             </div>
             <h3>Book name, Book name, Book name</h3>
@@ -57,24 +84,8 @@
             </div>
 
         </div>
-        <div>
-            <div>
-                <img src="" alt="book image">
-            </div>
-            <h3>Book name, Book name, Book name</h3>
-            <p>Book author</p>
-            <div>
-                <div>
-                    <p>Price</p>
-                </div>
-                <div>
-                    <button>View</button>
-                </div>
-            </div>
-
-        </div>
-        <div>
-            <div>
+        <div class="card">
+            <div class="card_image">
                 <img src="" alt="book image">
             </div>
             <h3>Book name, Book name, Book name</h3>
@@ -92,6 +103,7 @@
     </div>
   </section>
   <footer></footer>
+  <script src="js/main.js"></script>
 </body>
 </html>
       

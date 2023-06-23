@@ -9,10 +9,11 @@
     border-bottom: 1px solid black;
     padding: 20px;
     margin-top: 10px;
+    justify-content: space-between;
   }
   
   .flex-wrapper {
-    display: flex;  
+    display: flex;
   }
   
   .header-left > :first-child::after {
@@ -100,4 +101,30 @@
 
 .form__regcontent input {
     margin: 10px 0;
+}
+
+
+.cart-btn img{
+  height: 50px;
+  width: 50px;
+}
+
+/*books html styles */
+
+.books_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  border: 1px solid black;
+  padding: 5px;
+  margin: 10px;
+}
+
+.card_image {
+  height: 120px;
+  border: 1px solid black;
+  background-image: linear-gradient(to bottom right,  transparent calc(50% - 1px), black, transparent calc(50% + 1px));
+  
 }
