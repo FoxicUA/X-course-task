@@ -1,35 +1,54 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  .header_wrapper {
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    padding: 20px;
-    margin-top: 10px;
-    justify-content: space-between;
-  }
-  
-  .flex-wrapper {
-    display: flex;
-  }
-  
-  .header-left > :first-child::after {
-    content: '\002f';
-    margin: 0 5px;
-  }
-  
-  .header-left {
-    font-weight: bold;
-    font-family: 'Open Sans', sans-serif;
-  
-  }
-  
-  .header-left > :first-child {
-    text-transform: uppercase;
-  }
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  color: #2e2e2e;
+}
+
+.d-flex {
+  display: flex;
+}
+
+header {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.header-wrapper {
+  justify-content: space-between;
+  max-width: 1200px;
+}
+
+.wrapper {
+  max-width: 1200px;
+}
+
+.flex-wrapper {
+  display: flex;
+}
+
+.header-left > :first-child::after {
+  content: '\002f';
+  margin: 0 5px;
+}
+
+.header-left {
+  font-weight: bold;
+  align-items: center;
+}
+
+.header-left > :first-child {
+  text-transform: uppercase;
+}
+
+.header-avatar {
+  vertical-align: middle;
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 50%;
+  border: 1px solid darkgrey;
+}
   
 .center {
   display: flex;
@@ -40,71 +59,7 @@
   height: 100vh;
 }
 
-  .avatar{
-    vertical-align: middle;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: 1px solid darkgrey;
-  }
-  
-  button {
-    border-radius: 5px;
-    padding: 4px 40px;
-    border: 1px solid black;
-    background-color: #cfd1cc;
-    margin: 10px 0;
-  }
-  
-  button:hover {
-    background-color: #b1b1b1; 
-  }
-  
-  form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-   
-  }
-
-.reg_form {
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-}
-
-.form-registration {
-    position: relative;
-    height: 1000px;
-}
-
-.form__regava {
-    border: 1px solid black;
-    max-width: 100px;
-}
-
-.form__regava img{
-    max-width: 100px;
-    justify-content: center;
-    display: flex;
-}
-
-.form__regcontent {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;    
-    margin: 10px 0;
-}
-
-.form__regcontent input {
-    margin: 10px 0;
-}
-
-
-.cart-btn img{
+.card-btn img{
   height: 50px;
   width: 50px;
 }
@@ -128,3 +83,4 @@
   background-image: linear-gradient(to bottom right,  transparent calc(50% - 1px), black, transparent calc(50% + 1px));
   
 }
+

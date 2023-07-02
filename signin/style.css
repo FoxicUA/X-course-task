@@ -1,0 +1,144 @@
+
+
+.avatar{
+  vertical-align: middle;
+  max-width: 160px;
+  max-height: 160px;
+  border-radius: 50%;
+  border: 1px solid darkgrey;
+}
+
+.avatar:hover {
+  transition: ease-out 0.5s;
+  box-shadow: 1px 0px 8px #838383;
+}
+  
+.btn {
+  border-radius: 5px;
+  padding: 4px;
+  border: 2px solid #b4b2b2;
+  background-color: #cfd1cc;
+  font-weight: 700;
+  width: 200px;
+}
+  
+.btn:hover {
+  border: 2px solid #b4b2b2;
+  background-color: #d1cfcf;
+  transition: ease-out 0.5s;
+  box-shadow: 1px 0px 12px #b1b1b1;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ 
+}
+
+form input {
+  border-radius: 5px;
+  border: 2px solid #b4b2b2;
+}
+
+form input:hover {
+  transition: ease-out 0.5s;
+  box-shadow: 1px 0px 12px #b1b1b1;
+}
+
+.reg-form__label {
+  margin-top: 18px;
+  font-weight: 700;
+}
+
+.reg-form__input {
+  width: 100%;
+}
+
+.reg-form__input input{
+  width: 100%;
+  margin: 10px 0;
+  padding: 6px 6px;
+}
+
+.reg-form__submit_btn input{
+  padding: 6px 2px;
+}
+
+
+/* .reg_form {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+} 
+
+.form-registration {
+  position: relative;
+  height: 1000px;
+}
+
+.form__regava {
+  border: 1px solid black;
+  max-width: 100px;
+}
+
+.form__regava img{
+  max-width: 100px;
+  justify-content: center;
+  display: flex;
+}
+
+.form__regcontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.form__regcontent input {
+  margin: 10px 0;
+}  */
+
+@media (max-width: 320px) { 
+  .avatar {
+    max-height: 200px;
+    max-width: 200px;
+  }
+
+  label {font-weight: bold;}
+
+  form {
+    width: 100%;
+  }
+
+  .reg-form__label {
+    margin-top: 20px;
+  }
+
+  .reg-form__input{
+    width: 100%;
+    padding: 0 8px;
+  }
+
+  .reg-form__input input {
+    width: 100%;
+    margin: 5px 0;
+    padding: 6px 2px;
+    text-align: center;
+  }
+
+  .reg-form__submit_btn {
+    width: 100%;
+    padding: 0 8px;
+  }
+
+  .reg-form__submit_btn input {
+    width: 100%;
+    margin: 5px 0;
+    padding: 6px 2px;
+  }
+
+}
